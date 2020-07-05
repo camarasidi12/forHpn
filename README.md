@@ -22,9 +22,9 @@
 2. Graphe
   
   The graph structure is a python class.
-     With the following attributs:
-    node: define the currente node value
-    children: is an array of Node type. Each value of the array represente a children of current node. 
+     With the following attributs:<br />
+    **node**: define the currente node value<br />
+    **children**: is an array of Node type. Each value of the array represente a children of current node. <br />
 
   ```python
 
