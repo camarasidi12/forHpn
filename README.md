@@ -22,6 +22,10 @@
 2. Graphe
   
   The graph structure is a python class.
+     With the following attributs:
+    node: define the currente node value
+    children: is an array of Node type. Each value of the array represente a children of current node. 
+
   ```python
 
   class NTrie(object):
@@ -31,10 +35,7 @@
         self.val = val
         self.children = children
    ```
-    Attributs:
-    node: define the currente node value
-    children: is an array of Node type. Each value of the array represente a children of current node. 
-
+ 
     Example of graph:
     ```python
     trie = NTrie(7, [NTrie(3, [NTrie(1, [NTrie(0, []), NTrie(4, [])]), NTrie(8, [NTrie(17, []), NTrie(18, [])])]), NTrie(15, []), NTrie(16, [])])
